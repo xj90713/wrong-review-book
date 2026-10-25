@@ -1,0 +1,51 @@
+# Dependencies and local runtimes
+node_modules/
+.venv*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Local user data, uploads, and generated exports
+data/
+uploads/
+exports/
+backups/
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.csv
+*.tsv
+
+# Generated media and OCR/transcription inputs
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.heic
+*.pdf
+*.mp3
+*.m4a
+*.wav
+*.webm
+*.mp4
+*.mov
+
+# Tooling caches and local design scratchpads
+.DS_Store
+.superpowers/
+.codex/
+.agents/
+coverage/
+dist/
+build/
+tmp/
+temp/

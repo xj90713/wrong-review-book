@@ -1,0 +1,14 @@
+{
+  "name": "review-notebook",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env.local server.mjs",
+    "test": "node --test",
+    "import:textbooks": "node scripts/import-textbook-library.mjs"
+  }
+}
